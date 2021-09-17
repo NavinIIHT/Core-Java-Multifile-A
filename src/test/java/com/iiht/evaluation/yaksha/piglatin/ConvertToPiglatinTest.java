@@ -38,7 +38,7 @@ public class ConvertToPiglatinTest {
 		MyApp obj = new MyApp();
 		String str = "THIS";
 		String piglatin = obj.getPiglatin(str);
-		yakshaAssert(currentTest(), piglatin.contentEquals("STHIa")? true:false, businessTestFile);
+		yakshaAssert(currentTest(), piglatin.contentEquals("HISTa")? true:false, businessTestFile);
 	}
 	
 	@Test
