@@ -80,7 +80,7 @@ public class TestUtils {
 			writer.flush();
 			writer.close();
 			
-			createXML(testName, file);
+			//createXML(testName, file);
 			
 		}
 		
