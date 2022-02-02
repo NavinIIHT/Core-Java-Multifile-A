@@ -22,7 +22,7 @@ public class ConvertToPiglatinTest {
 		MyApp obj = new MyApp();
 		String str = "This is a string";
 		String piglatin = obj.getPiglatin(str);
-		yakshaAssert(currentTest(), piglatin.contentEquals("hisTa sia aa tringSa")? true:false, businessTestFile);
+		yakshaAssert(currentTest(), piglatin.contentEquals("hisTa sia aa tringsa")? true:false, businessTestFile);
 	}
 	
 	@Test
@@ -54,7 +54,7 @@ public class ConvertToPiglatinTest {
 		MyApp obj = new MyApp();
 		String str = "  This is  a string ";
 		String piglatin = obj.getPiglatin(str);
-		yakshaAssert(currentTest(), piglatin.contentEquals("  hista sia  aa tringa ")? true:false, exceptionTestFile);
+		yakshaAssert(currentTest(), piglatin.contentEquals("  hista sia  aa tringsa ")? true:false, exceptionTestFile);
 	}
 	
 	
